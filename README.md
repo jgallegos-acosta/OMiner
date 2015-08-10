@@ -1,5 +1,5 @@
 # OMinner
-OMinner is an opinion minning system, based on my master thesis. The intention is to grow this baby up, and rich with the help of others. Thanks to take the time to try it.
+OMinner is an opinion minning system, based on my master thesis. The intention is to grow this baby up, and enrich with the help of others. Thanks to take the time to try it.
 
 It's mainly written in PHP but I included some pieces of code of other languages to make it more powerful.
 
