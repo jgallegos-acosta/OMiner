@@ -25,14 +25,21 @@ Yeah! What a surprise!?
 It is built following a very well stablished direction, based on the work of Turney et al.
 So, the modules cover these steps:
 
-a) Extraction of the opinions (from the web)
-b) Parsing the opinons to get tokens 
+a) Extraction of the opinions (from the web).
+
+b) Parsing the opinons to get tokens .
+
 c) Part-of-Speech tagging of the tokens (we'll explain this later).
-d) Filtering the tokens using morpho-sintactic rules
+
+d) Filtering the tokens using morpho-sintactic rules.
+
 e*) Defining a "wordbag" (this will be explained later, sorry).
+
 f) Getting the hits retrieved by Google using the "wordbag" and the filtered words.
+
 g) Calculating the semantic orientation using the google hits.
-h) Evaluating the system
+
+h) Evaluating the system.
 
 As this is based on Turney work, it's built upon a unsupervised method.
 
