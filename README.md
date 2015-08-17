@@ -5,7 +5,7 @@ It's mainly written in PHP but I included some pieces of code of other languages
 
 I'm sure you'll find this useful, either as a base for some other system or simply as a teaching aid.
 
-As OpenSource foundaction says, keep author's name and license please, it helps me to grow my ego ;)
+As OpenSource foundation says, keep author's name and license please, it helps me to grow my ego ;)
 
 Do not hesitate to send me an email with your comments, modules, addons, complaints, etcetera.
 
