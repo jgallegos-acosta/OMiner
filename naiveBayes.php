@@ -186,11 +186,6 @@ unset($ar1);
 $fc = $hff;
 
 
-//print "\nOpiniones Positivas de Entrenamiento: ".getLines("pos_trainset.txt");
-//print "\nOpiniones Negativas de Entrenamiento: ".getLines("neg_trainset.txt");
-
-//fprintf ($hndAc, "\nOpiniones Positivas de Entrenamiento: 300");
-//fprintf ($hndAc, "\nOpiniones Negativas de Entrenamiento: 300");
 fprintf ($hndAc, "\nOpiniones Positivas de Entrenamiento: ". (getLines("train_sets.lst")/2));
 fprintf ($hndAc, "\nOpiniones Negativas de Entrenamiento: ". (getLines("train_sets.lst")/2));
 print "\nTotal: ".($fc);
