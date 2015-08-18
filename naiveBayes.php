@@ -81,8 +81,8 @@ $op = new Opinion();
 $op->addToIndex('neg_trainset.txt', 'neg');
 $op->addToIndex('pos_trainset.txt', 'pos');
 
-$utf_path = "./OpinionsUTF";
-$xmlPath  = './OpinionsXML';
+$utf_path = "./OpinionsUTF"; //Optional
+$xmlPath  = './OpinionsXML'; //Optional
 
 $TP = 0; $TN = 0;
 $FP = 0; $FN = 0;
@@ -261,7 +261,7 @@ function getLines($fname)
      if ($buffer != "")
      {
 		 $c++;
-	 }
+     }
  }
  fclose($hndIn1);
  return $c;
